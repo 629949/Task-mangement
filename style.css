@@ -12,6 +12,8 @@ body {
     display: block;
     width: 500px;
     margin: 200px auto 0;
+    background: rgb(1, 99, 74);
+    position: relative;
 }
 ul {
     margin: 0;
@@ -40,6 +42,7 @@ button {
     width: 100px;
     margin: 10px, 0 0;
     cursor: pointer;
+    border: 2px solid #444;
 }
 
 button:hover {
@@ -48,12 +51,12 @@ button:hover {
 
 h2,
 label[for='new-task'] {
-    color:rgb(17, 39, 38);
+    color:rgb(245, 255, 254);
     font-size: 15px;
-    border: 2px solid #444;
     padding: 30px 0 10px;;
     margin: 0;
     font-weight: 700;
+
 
 }
 
@@ -73,4 +76,5 @@ input[type="text"] {
   
 input[type="text"]:focus {
   color: #333;
+  outline: whitesmoke;
 }
