@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(17, 39, 38);
+    background-color: rgb(80, 107, 106);
     color: white;
 
 }
@@ -39,7 +39,7 @@ button {
     color: grey;
     border: 0px;
     width: 100px;
-    margin: 10px, 0 0;
+    margin: 10px 0 0;
     cursor: pointer;
     border: 2px solid #444;
 }
@@ -78,6 +78,6 @@ input[type="text"]:focus {
   outline: whitesmoke;
 }
 
-.completed-Task{
+.completed-task{
     text-decoration: line-through;
 }
